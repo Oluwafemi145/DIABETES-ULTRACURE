@@ -117,42 +117,42 @@
 
  <!-- Order Form -->
   <section class="form" id="order-form">
-    <h2>Place Your Order</h2>
-    <form action="https://formspree.io/f/xrgvngog" method="POST">
-      <label for="name">Full Name</label>
-      <input type="text" name="name" id="name" required />
+  <h2>Place Your Order</h2>
+  <form action="https://formspree.io/f/xrgvngog" method="POST">
+    <label for="name">Full Name</label>
+    <input type="text" name="name" id="name" required />
 
-      <label for="phone">Primary Phone Number</label>
-      <input type="tel" name="phone" id="phone" required />
+    <label for="phone">Primary Phone Number</label>
+    <input type="tel" name="phone" id="phone" required />
 
-      <label for="alt-phone">Alternative Phone Number</label>
-      <input type="tel" name="alt-phone" id="alt-phone" />
+    <label for="alt-phone">Alternative Phone Number</label>
+    <input type="tel" name="alt-phone" id="alt-phone" />
 
-      <label for="state">State</label>
-      <select name="state" id="state" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
-        <option value="">-- Select Your State --</option>
-      </select>
+    <label for="state">State</label>
+    <select name="state" id="state" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+      <option value="">-- Select Your State --</option>
+    </select>
 
-      <label for="lga">Local Government Area (LGA)</label>
-      <select name="lga" id="lga" required style="width: 100%; padding: 10px; margin-bottom: 10px;" disabled>
-        <option value="">-- Select State First --</option>
-      </select>
+    <label for="lga">Local Government Area (LGA)</label>
+    <select name="lga" id="lga" required style="width: 100%; padding: 10px; margin-bottom: 10px;" disabled>
+      <option value="">-- Select State First --</option>
+    </select>
 
-      <label for="quantity">Select Number of Bottles</label>
-      <select name="quantity" id="quantity" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
-        <option value="">-- Choose Quantity --</option>
-        <option value="1 Bottle - ₦25,000">1 Bottle - ₦25,000</option>
-        <option value="2 Bottles - ₦45,000">2 Bottles - ₦40,000</option>
-        <option value="3 Bottles - ₦60,000">3 Bottles - ₦60,000</option>
-        <option value="4 Bottles - ₦70,000">4 Bottles - ₦70,000</option>
-      </select>
+    <label for="quantity">Select Number of Bottles</label>
+    <select name="quantity" id="quantity" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+      <option value="">-- Choose Quantity --</option>
+      <option value="1 Bottle - ₦25,000">1 Bottle - ₦25,000</option>
+      <option value="2 Bottles - ₦40,000">2 Bottles - ₦40,000</option>
+      <option value="3 Bottles - ₦60,000">⭐️ 3 Bottles - ₦60,000 (Recommended)</option>
+      <option value="4 Bottles - ₦70,000">⭐️ 4 Bottles - ₦70,000 (Recommended)</option>
+    </select>
 
-      <label for="address">Delivery Address</label>
-      <textarea name="address" id="address" rows="3" required></textarea>
+    <label for="address">Delivery Address</label>
+    <textarea name="address" id="address" rows="3" required></textarea>
 
-      <button type="submit">Submit Order</button>
-    </form>
-  </section>
+    <button type="submit">Submit Order</button>
+  </form>
+</section>
 
 <script>
 const stateToLGA = {
